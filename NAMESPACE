@@ -13,11 +13,14 @@ S3method(gromovdist,phylo)
 ## package methods
 import(methods)
 
-## package 
+## packages  
 import("glpkAPI")
-import("quadprog")
-import("igraph")
-import("phangorn")
-import("cluster")
 
+##selected methods from other packages
+importFrom("quadprog","solve.QP.compact")
+importFrom("igraph","shortest.paths","degree","V")
+importFrom("ape","cophenetic.phylo")
+importFrom("stats","cophenetic")
+importFrom("cluster","daisy")
+importFrom("stats","constrOptim")
 
