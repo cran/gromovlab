@@ -75,7 +75,10 @@ V.Liebscher, Gromov meets Phylogenetics - new Animals for the Zoo of Metrics on 
 \seealso{
 \link[stats]{dist}, \link[cluster]{dissimilarity.object},\link[phangorn]{phangorn-package}, \link[igraph]{igraph-package},\link[stats]{constrOptim}.
 }
-\keyword{Gromov-Hausdorff metric, dissimilarity, tree space, finite labeled metriv space}
+\concept{Gromov-Hausdorff metric}
+\concept{dissimilarity}
+\concept{tree space}
+\concept{finite labeled metric space}
 \examples{library("ape")
 tr1<-rtree(n=10)
 tr2<-rtree(n=10)

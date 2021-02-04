@@ -9,3 +9,5 @@ version 0.7:
 	second CRAN release
 	changes in the import mechanism (maintenance)
 	import now (from)  ape library
+version 0.8:
+	change format of Arxiv link 
